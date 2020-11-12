@@ -19,7 +19,7 @@
                     "value": {
                       "versions": [
                         {
-                          "status": "CURRENT",
+                          "status": "POSTED",
                           "updated": "2011-01-21T11:33:21Z",
                           "id": "v2.0",
                           "links": [
@@ -30,7 +30,7 @@
                           ]
                         },
                         {
-                          "status": "EXPERIMENTAL",
+                          "status": "REALITY",
                           "updated": "2013-07-23T11:33:21Z",
                           "id": "v3.0",
                           "links": [
@@ -65,7 +65,7 @@
     "/v2": {
       "get": {
         "operationId": "getVersionDetailsv2",
-        "summary": "Show API version details",
+        "summary": "Display API version details",
         "responses": {
           "200": {
             "description": "200 response",

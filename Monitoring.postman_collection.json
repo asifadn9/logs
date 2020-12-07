@@ -1,0 +1,396 @@
+{
+	"variables": [],
+	"info": {
+		"name": "D&B Direct+ Monitoring",
+		"_postman_id": "64f3ea25-2ee8-327d-90ea-f2bf2406b822",
+		"description": "Monitoring API calls.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication - Access Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setGlobalVariable(\"dnbtoken\",jsonData.access_token);"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"showPassword": false
+					}
+				},
+				"url": "https://plus.dnb.com/v2/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer Basic <base 64 encoded(yourKey:yourSecret)>"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"grant_type\" : \"client_credentials\" }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Add DUNS to Registration",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/duns/add",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "duns",
+							"type": "file",
+							"value": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Check for DUNS in Registration",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/duns/804735132",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Registration - Confirm",
+			"request": {
+				"url": {
+					"raw": "https://plus.dnb.com/v1/monitoring/registrations/myTest1?ackToken=[ackToken]",
+					"protocol": "https",
+					"host": [
+						"plus",
+						"dnb",
+						"com"
+					],
+					"path": [
+						"v1",
+						"monitoring",
+						"registrations",
+						"myTest1"
+					],
+					"query": [
+						{
+							"key": "ackToken",
+							"value": "[ackToken]",
+							"equals": true
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Registration - Submit",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Remove DUNS from Registration",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/Test1/duns/remove",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "duns",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Registration Details",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "description",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ourgroup@mycompany.com, jsmith@company.com, mytam@dnb.com",
+							"type": "text"
+						},
+						{
+							"key": "destinationType",
+							"value": "STP",
+							"type": "text"
+						},
+						{
+							"key": "fileTransferProfile",
+							"value": "MySTP",
+							"type": "text"
+						},
+						{
+							"key": "encryptionKey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "deliveryFrequency",
+							"value": "DAILY",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "jsonPathInclusion",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "jsonPathExclusion",
+							"value": "organization.financials, organization.controlOwnershipDate",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Export list of DUNS",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/export/myTest1/duns",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Registration Details",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Registration Status",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/status",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List all Registrations",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List Pending Deliveries",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/deliveries",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Suppress Notifications",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/suppress",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Unsuppress Notifications",
+			"request": {
+				"url": "https://plus.dnb.com/v1/monitoring/registrations/myTest1/suppress",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{dnbtoken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

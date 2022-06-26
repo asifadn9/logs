@@ -1,0 +1,2939 @@
+{
+	"info": {
+		"_postman_id": "99bf6229-de5b-417d-98f7-09ed2a8e2008",
+		"name": "Percolate API",
+		"description": "Collection for Percolate API requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/access/?object_ids=post%3A197557",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/access/?object_ids=post%3A197557",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"access",
+								""
+							],
+							"query": [
+								{
+									"key": "object_ids",
+									"value": "post%3A197557"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/access/access%3AUS_1150927216633765305",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/access/access%3AUS_1150927216633765305",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"access",
+								"access%3AUS_1150927216633765305"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/access/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/access/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"access",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "App Installation",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/app_installation/?tenant_id=tenant%3A94&statuses=active&include=app_id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/app_installation/?tenant_id=tenant%3A94&statuses=active&include=app_id",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"app_installation",
+								""
+							],
+							"query": [
+								{
+									"key": "tenant_id",
+									"value": "tenant%3A94"
+								},
+								{
+									"key": "statuses",
+									"value": "active"
+								},
+								{
+									"key": "include",
+									"value": "app_id"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Approval",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/approval_template/approval_template%3A1150927803106836088",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/approval_template/approval_template%3A1150927803106836088",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"approval_template",
+								"approval_template%3A1150927803106836088"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/approval/approval%3A1150927805325642324",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/approval/approval%3A1150927805325642324",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"approval",
+								"approval%3A1150927805325642324"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/approval/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/approval/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"approval",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Approval Template",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/approval_template/approval_template%3A1150927803106836088",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/approval_template/approval_template%3A1150927803106836088",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"approval_template",
+								"approval_template%3A1150927803106836088"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/approval_template/approval_template%3A123456789",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/approval_template/approval_template%3A123456789",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"approval_template",
+								"approval_template%3A123456789"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Asset",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/asset/?limit=50&offset=0&order_by=created_at&order_direction=desc&recursive=true&exclude=ingested&extend_scope_ids=license%3A22395&include_metadata=true",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/asset/?limit=50&offset=0&order_by=created_at&order_direction=desc&recursive=true&exclude=ingested&extend_scope_ids=license%3A22395&include_metadata=true",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"asset",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								},
+								{
+									"key": "order_by",
+									"value": "created_at"
+								},
+								{
+									"key": "order_direction",
+									"value": "desc"
+								},
+								{
+									"key": "recursive",
+									"value": "true"
+								},
+								{
+									"key": "exclude",
+									"value": "ingested"
+								},
+								{
+									"key": "extend_scope_ids",
+									"value": "license%3A22395"
+								},
+								{
+									"key": "include_metadata",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/asset/asset%3A1150927095690942538_1150927095690942538",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/asset/asset%3A1150927095690942538_1150927095690942538",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"asset",
+								"asset%3A1150927095690942538_1150927095690942538"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/asset/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/asset/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"asset",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/asset/asset%3A1150927095690942538_1150927095690942538/download?disposition=attachment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/asset/asset%3A1150927095690942538_1150927095690942538/download?disposition=attachment",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"asset",
+								"asset%3A1150927095690942538_1150927095690942538",
+								"download"
+							],
+							"query": [
+								{
+									"key": "disposition",
+									"value": "attachment"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Asset Variant",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Auth",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Auth Token",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Channel",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/channel/?offset=0&limit=100&scope_ids=license%3A22398&platform_ids=platform%3A1150927148601280925&access_scopes=owned%2Cshared",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/channel/?offset=0&limit=100&scope_ids=license%3A22398&platform_ids=platform%3A1150927148601280925&access_scopes=owned%2Cshared",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"channel",
+								""
+							],
+							"query": [
+								{
+									"key": "offset",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "100"
+								},
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "platform_ids",
+									"value": "platform%3A1150927148601280925"
+								},
+								{
+									"key": "access_scopes",
+									"value": "owned%2Cshared"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/channel/channel%3A1150927156280662115",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/channel/channel%3A1150927156280662115",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"channel",
+								"channel%3A1150927156280662115"
+							]
+						},
+						"description": "No query param"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Campaign",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/campaign/?ids=campaign%3A2988",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign/?ids=campaign%3A2988",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign",
+								""
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": "campaign%3A2988"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/campaign/campaign%3A18955",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign/campaign%3A18955",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign",
+								"campaign%3A18955"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/campaign/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Campaign Section",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/campaign_section/?campaign_ids=campaign%3A2992&limit=1000 ",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign_section/?campaign_ids=campaign%3A2992&limit=1000",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign_section",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign_ids",
+									"value": "campaign%3A2992"
+								},
+								{
+									"key": "limit",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Campaign Template",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/campaign_template/?scope_ids=license%3A22398&access_scopes=owned%2Cshared&statuses=active",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign_template/?scope_ids=license%3A22398&access_scopes=owned%2Cshared&statuses=active",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign_template",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "access_scopes",
+									"value": "owned%2Cshared"
+								},
+								{
+									"key": "statuses",
+									"value": "active"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/campaign_template/campaign_template%3A1150927278837770676",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign_template/campaign_template%3A1150927278837770676",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign_template",
+								"campaign_template%3A1150927278837770676"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/campaign_template/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign_template/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign_template",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Campaign Template Node",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/campaign_template_node/?scope_ids=license%3A22398&statuses=active&limit=500 ",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/campaign_template_node/?scope_ids=license%3A22398&statuses=active&limit=500 ",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"campaign_template_node",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "statuses",
+									"value": "active"
+								},
+								{
+									"key": "limit",
+									"value": "500 "
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/comment/?include=user_id&limit=1&object_ids=post%3A197557&scope_id=license%3A22398",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/comment/?include=user_id&limit=1&object_ids=post%3A197557&scope_id=license%3A22398",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"comment",
+								""
+							],
+							"query": [
+								{
+									"key": "include",
+									"value": "user_id"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								},
+								{
+									"key": "object_ids",
+									"value": "post%3A197557"
+								},
+								{
+									"key": "scope_id",
+									"value": "license%3A22398"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/comment/comment%3A1315440561696421701",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/comment/comment%3A1315440561696421701",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"comment",
+								"comment%3A1315440561696421701"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/comment/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/comment/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"comment",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Export",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Folder",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/folder/folder%3A1150927026606620020",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/folder/folder%3A1150927026606620020",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"folder",
+								"folder%3A1150927026606620020"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/folder/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/folder/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"folder",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Intake Request",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/intake_request/?scope_ids=license%3A22395&response_ids=campaign%3A2992&extend_scopes=true ",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/intake_request/?scope_ids=license%3A22395&response_ids=campaign%3A2992&extend_scopes=true ",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"intake_request",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "license%3A22395"
+								},
+								{
+									"key": "response_ids",
+									"value": "campaign%3A2992"
+								},
+								{
+									"key": "extend_scopes",
+									"value": "true "
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "License",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/license/?limit=3&offset=3&tenant_id=tenant%3A94&statuses=active",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/license/?limit=3&offset=3&tenant_id=tenant%3A94&statuses=active",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"license",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "3"
+								},
+								{
+									"key": "offset",
+									"value": "3"
+								},
+								{
+									"key": "tenant_id",
+									"value": "tenant%3A94"
+								},
+								{
+									"key": "statuses",
+									"value": "active"
+								}
+							]
+						},
+						"description": "Missing 'ids' query param"
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/license/license%3A22284",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/license/license%3A22284",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"license",
+								"license%3A22284"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Me",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/me",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/me",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Metadata",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/metadata/?object_ids=campaign%3A2992&limit=1000&offset=0",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/metadata/?limit=1000&offset=0&object_ids=campaign%3A2992",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"metadata",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1000"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								},
+								{
+									"key": "object_ids",
+									"value": "campaign%3A2992"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/metadata/metadata%3A1315458762905310683",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/metadata/metadata%3A1315458762905310683",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"metadata",
+								"metadata%3A1315458762905310683"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/metadata/metadata%3A123456789",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/metadata/metadata%3A123456789",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"metadata",
+								"metadata%3A123456789"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Object Step",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/object_step/?object_ids=campaign%3A18955",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/object_step/?object_ids=campaign%3A18955",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"object_step",
+								""
+							],
+							"query": [
+								{
+									"key": "object_ids",
+									"value": "campaign%3A18955"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Platform",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/platform/?scope_ids=license%3A22395&limit=1000",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/platform/?scope_ids=license%3A22395&limit=1000",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"platform",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "license%3A22395"
+								},
+								{
+									"key": "limit",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/platform/platform%3A1150927148102463278",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/platform/platform%3A1150927148102463278",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"platform",
+								"platform%3A1150927148102463278"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/post/post%3A197557?include=channel_id%2Cplatform_id%2Cschema_id%2Cuser_id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/post/post%3A197557?include=channel_id%2Cplatform_id%2Cschema_id%2Cuser_id",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"post",
+								"post%3A197557"
+							],
+							"query": [
+								{
+									"key": "include",
+									"value": "channel_id%2Cplatform_id%2Cschema_id%2Cuser_id"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/post/post%3A197557",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/post/post%3A197557",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"post",
+								"post%3A197557"
+							]
+						},
+						"description": "No query param"
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/post/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/post/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"post",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Post Attachment",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Post Webhook",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Preference",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/preference/?names=platforms&with_scope_ids=license%3A22398",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/preference/?names=platforms&with_scope_ids=license%3A22398",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"preference",
+								""
+							],
+							"query": [
+								{
+									"key": "names",
+									"value": "platforms"
+								},
+								{
+									"key": "with_scope_ids",
+									"value": "license%3A22398"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/preference/preference%3AAAAAAAF-VwAAtCzNPw4BNgg=",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/preference/preference%3AAAAAAAF-VwAAtCzNPw4BNgg=",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"preference",
+								"preference%3AAAAAAAF-VwAAtCzNPw4BNgg="
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Production Workflow",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/production_workflow/?type=post&scope_ids=license%3A22398&access_scopes=owned%2Cshared",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/production_workflow/?type=post&scope_ids=license%3A22398&access_scopes=owned%2Cshared",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"production_workflow",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "post"
+								},
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "access_scopes",
+									"value": "owned%2Cshared"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/production_workflow/production_workflow%3A1150927269489740863",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/production_workflow/production_workflow%3A1150927269489740863",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"production_workflow",
+								"production_workflow%3A1150927269489740863"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/production_workflow/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/production_workflow/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"production_workflow",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Production Workflow Transition",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/role/?scope_ids=builtin_scope%3Asystem",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/role/?scope_ids=builtin_scope%3Asystem",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"role",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "builtin_scope%3Asystem"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/role/role%3A4",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/role/role%3A4",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"role",
+								"role%3A4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/role/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/role/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"role",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Schema",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/schema/?ext.platform_ids=platform%3A1187138686681910854&scope_ids=license%3A22398&statuses=active%2Cinactive&type=post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/schema/?ext.platform_ids=platform%3A1187138686681910854&scope_ids=license%3A22398&statuses=active%2Cinactive&type=post",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"schema",
+								""
+							],
+							"query": [
+								{
+									"key": "ext.platform_ids",
+									"value": "platform%3A1187138686681910854"
+								},
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "statuses",
+									"value": "active%2Cinactive"
+								},
+								{
+									"key": "type",
+									"value": "post"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/schema/schema%3A1150927218479373954_1150927218479373954",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/schema/schema%3A1150927218479373954_1150927218479373954",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"schema",
+								"schema%3A1150927218479373954_1150927218479373954"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/task/?is_complete=false&subject_ids=campaign%3A2992&order_by=due_at&order_direction=asc&limit=20&offset=0",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/task/?is_complete=false&subject_ids=campaign%3A2992&order_by=due_at&order_direction=asc&limit=20&offset=0",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"task",
+								""
+							],
+							"query": [
+								{
+									"key": "is_complete",
+									"value": "false"
+								},
+								{
+									"key": "subject_ids",
+									"value": "campaign%3A2992"
+								},
+								{
+									"key": "order_by",
+									"value": "due_at"
+								},
+								{
+									"key": "order_direction",
+									"value": "asc"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/task/task%3A1315450633849946937",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/task/task%3A1315450633849946937",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"task",
+								"task%3A1315450633849946937"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/task/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/task/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"task",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Task Template",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Taxonomy",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/taxonomy/taxonomy%3A1150927176514992590",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/taxonomy/taxonomy%3A1150927176514992590",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"taxonomy",
+								"taxonomy%3A1150927176514992590"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/taxonomy/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/taxonomy/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"taxonomy",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Tenant",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/tenant/?search=Performance%20Testing&types=sandbox&status=active&next_only=false&sudo=false&limit=3&offset=3",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/tenant/?search=Performance%20Testing&types=sandbox&status=active&next_only=false&sudo=false&limit=3&offset=3",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"tenant",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "Performance%20Testing"
+								},
+								{
+									"key": "types",
+									"value": "sandbox"
+								},
+								{
+									"key": "status",
+									"value": "active"
+								},
+								{
+									"key": "next_only",
+									"value": "false"
+								},
+								{
+									"key": "sudo",
+									"value": "false"
+								},
+								{
+									"key": "limit",
+									"value": "3"
+								},
+								{
+									"key": "offset",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/tenant/tenant%3A94",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/tenant/tenant%3A94",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"tenant",
+								"tenant%3A94"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Tenant Setting",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/tenant/tenant%3A94/settings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/tenant/tenant%3A94/settings",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"tenant",
+								"tenant%3A94",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Term",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/term/?scope_ids=license%3A22398&ids=term%3AXTN1150927176526945324",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/term/?scope_ids=license%3A22398&ids=term%3AXTN1150927176526945324",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"term",
+								""
+							],
+							"query": [
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "ids",
+									"value": "term%3AXTN1150927176526945324"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/term/term%3AXTN1150927176526945324",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/term/term%3AXTN1150927176526945324",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"term",
+								"term%3AXTN1150927176526945324"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/term/term%3A123456789",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/term/term%3A123456789",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"term",
+								"term%3A123456789"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Token",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/token/?extend_scope_ids=license%3A22395&platform_ids=platform%3A1132768476458556419&user_ids=user%3A2009",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/token/?extend_scope_ids=license%3A22395&platform_ids=platform%3A1132768476458556419&user_ids=user%3A2009",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"token",
+								""
+							],
+							"query": [
+								{
+									"key": "extend_scope_ids",
+									"value": "license%3A22395"
+								},
+								{
+									"key": "platform_ids",
+									"value": "platform%3A1132768476458556419"
+								},
+								{
+									"key": "user_ids",
+									"value": "user%3A2009"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "UIX Visibility",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Upload",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Upload Policy",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/user/?search=jlee%40seismic.com&limit=1&offset=1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user/?search=jlee%40seismic.com&limit=1&offset=1",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "jlee%40seismic.com"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								},
+								{
+									"key": "offset",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Missing 'ids' query param"
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/user/user%3A910",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user/user%3A910",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user",
+								"user%3A910"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/user/password?email=foobar@barfoo.com&tenant=foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user/password?email=foobar@barfoo.com&tenant=foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user",
+								"password"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "foobar@barfoo.com"
+								},
+								{
+									"key": "tenant",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User Role",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/user_role/?extend_scopes=false&me=true&limit=3&offset=3&user_search=jlee%40seismic.com&exclude_hierarchical=false&sso_disabled=true&sudo=true",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user_role/?capabilities=post%3Aread&limit=5&scope_ids=license%3A22398&extend_scopes=false&user_search=t&distinct=user_id&exclude_disabled=true&exclude_hierarchical=false&include=user_id%2Crole_id",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user_role",
+								""
+							],
+							"query": [
+								{
+									"key": "capabilities",
+									"value": "post%3Aread"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								},
+								{
+									"key": "scope_ids",
+									"value": "license%3A22398"
+								},
+								{
+									"key": "extend_scopes",
+									"value": "false"
+								},
+								{
+									"key": "user_search",
+									"value": "t"
+								},
+								{
+									"key": "distinct",
+									"value": "user_id"
+								},
+								{
+									"key": "exclude_disabled",
+									"value": "true"
+								},
+								{
+									"key": "exclude_hierarchical",
+									"value": "false"
+								},
+								{
+									"key": "include",
+									"value": "user_id%2Crole_id"
+								}
+							]
+						},
+						"description": "Following query params missing: {'ids', 'scope_ids', 'user_ids', 'role_ids', 'order_by', 'order_direction', 'capabilities', 'distinct', 'exclude_disabled', 'include'}"
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/user_role/user_role%3A1308137494147146224",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user_role/user_role%3A1308137494147146224",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user_role",
+								"user_role%3A1308137494147146224"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://testolate.com/api/v5/user_role/foobar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/user_role/foobar",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"user_role",
+								"foobar"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User Role Import",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Variant",
+			"item": [
+				{
+					"name": "https://testolate.com/api/v5/variant/?asset_id=asset%3A1150927095690942538_1150927095690942538&limit=3&offset=3&order_by=created_at",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ieE8GPYW6EQ17JGF7uJKt49ScdXrrzNXPbIPY-8WZjuxLWpBnhDI6b8cdSsg9Czl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testolate.com/api/v5/variant/?asset_id=asset%3A1150927095690942538_1150927095690942538&limit=3&offset=3&order_by=created_at",
+							"protocol": "https",
+							"host": [
+								"testolate",
+								"com"
+							],
+							"path": [
+								"api",
+								"v5",
+								"variant",
+								""
+							],
+							"query": [
+								{
+									"key": "asset_id",
+									"value": "asset%3A1150927095690942538_1150927095690942538"
+								},
+								{
+									"key": "limit",
+									"value": "3"
+								},
+								{
+									"key": "offset",
+									"value": "3"
+								},
+								{
+									"key": "order_by",
+									"value": "created_at"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Webhook Subscription",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Webhook Log",
+			"item": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
